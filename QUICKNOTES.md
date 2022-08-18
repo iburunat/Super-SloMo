@@ -4,6 +4,10 @@ You can either create a slow motion video by keeping the original frame rate or 
 ```
 python video_to_slomo.py --video video.avi --sf 3 --checkpoint SuperSloMo.ckpt --fps 90 --output output.mkv
 ```
+
+You can download the pretrained model trained on adobe240fps dataset [here](https://drive.google.com/file/d/1IvobLDbRiBgZr3ryCRrWL8xDbMZ-KnpF/view).
+
+
 Run the following commmand for help / more info: python video_to_slomo.py --h
 
 
